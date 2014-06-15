@@ -1,0 +1,96 @@
+﻿<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="resource/logo.ico">
+
+    <title>Lynnlysh 前端技术小站</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <link href="resources/index.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container title">
+        <div class="navbar-header">
+          
+          <a class="navbar-brand" href="#">Lynnlysh 前端技术小站</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#welcome">示例</a></li>
+            <li><a href="#document">文档</a></li>
+            <li><a href="#download">下载</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container welcome" id="welcome">
+      <div id="welecom_carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#welecom_carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#welecom_carousel" data-slide-to="1"></li>
+          <li data-target="#welecom_carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item">
+            <img alt="First slide" src="resources/plugins.png">
+			<div class="carousel-caption">
+              <h3>插件</h3>
+              <p>通常依赖于jquery实现，有些引用了bootstrap的样式，目前包含：数字输入组件、缩放预览框组件、表格动态分页载入组件</p>
+            </div>         
+		 </div>
+          <div class="item">
+            <img alt="Second slide" src="resources/extensions.png">
+			<div class="carousel-caption">
+              <h3>第三方拓展</h3>
+              <p>目前包含：对mxgraph的第三方样式拓展、边界元素绘制支持拓展</p>
+            </div>  
+          </div>
+          <div class="item active">
+            <img alt="Third slide" src="resources/tools.png">
+			<div class="carousel-caption">
+              <h3>工具集</h3>
+              <p>流程图绘制工具：用于绘制符合BPMN规范的流程图，支持流程定义的导出。</p>
+            </div>  
+          </div>
+        </div>
+        <a class="left carousel-control" href="#welecom_carousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#welecom_carousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+	  <div class="modal-btns">
+	  <div class="modal-btn" for="0"><em class="glyphicon glyphicon-export"></em></div>
+	   <div class="modal-btn" for="1"><em class="glyphicon glyphicon-pencil"></em></div>
+	    <div class="modal-btn" for="2"><em class="glyphicon glyphicon-wrench"></em></div></div>
+    </div>
+	<div class="container plugins hide"></div><!--插件-->
+	<div class="container extensions hide">第三方库拓展</div>
+	<div class="container tools hide">工具</div>
+	<div class="container hide" id="document">文档</div>
+	<div class="container hide" id="download">下载</div>
+
+	<footer>
+        <p class="pull-right"><a href="#">返回顶部</a></p>
+        <p>© 2014 Lynn Wong powered by <a>jquery</a> <a>seajs</a> <a>bootstrap</a></p>
+      </footer>
+
+   
+<script src="lib/jquery-2.0.3.min.js" type="text/javascript"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="lib/sea.js" type="text/javascript"></script>
+  <script type="text/javascript">
+(function(){
+seajs.use("./src/index",function(Models, extend){
+Models.run();
+});
+}());
+</script>
+
+</body></html>

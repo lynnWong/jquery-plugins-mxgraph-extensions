@@ -1,0 +1,20 @@
+.bp-number-btn {
+	height: 17px;
+	width: 16px !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: center;
+	width: 16px !important;
+}
+
+.bp-number-icon-up {
+	background-image: url(images/upClick.png) !important;
+}
+
+.bp-number-icon-down {
+	background-image: url(images/downClick.png) !important;
+}
+
+.bp-number-btn-group {
+	left: -16px;
+}

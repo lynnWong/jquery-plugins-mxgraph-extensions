@@ -1,0 +1,131 @@
+#bp_outline>div:first-child,#bp_outline>div:last-child {
+	margin: auto;
+	width: 200px;
+	font-weight: bold;
+}
+
+#bp_outline>div:first-child span {
+	float: right;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.pushpin-enable {
+	opacity: 1 !important;
+}
+
+#bp_outline_graph {
+	width: 180px;
+	height: 150px;
+	background-color: #ffffff;
+	margin: 10px;
+}
+
+#bp_outline_infor {
+	width: 180px;
+	margin: 10px;
+}
+
+#bp_outline_infor font {
+	color: rgb(30, 13, 224);
+}
+
+#bp_outline_infor button {
+	float: right;
+}
+
+#bp_outline_infor input {
+	width: 43px;
+	height: 30px;
+	display: inline;
+	padding: 2px 2px 2px 2px;
+}
+
+#bp_outline_infor div {
+	width: 15px;
+	max-height: 30px;
+	margin-left: -5px;
+}
+
+#bp_outline_infor>div>button {
+	height: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: center;
+}
+
+.bp-outline-icon-up {
+	background-image: url(images/upClick.png) !important;
+}
+
+.bp-outline-icon-down {
+	background-image: url(images/downClick.png) !important;
+}
+
+#bp_outline_infor>button {
+	margin: 5px;
+}
+
+#bp_outline_zoombar {
+	position:relative;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	width: 180px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.bp-outline-zoom-btn {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-position: 49%;
+	display: inline-block;
+	border: 1px solid #8B8A8A;
+	cursor: pointer;
+	background-color: #FFFFFF;
+}
+
+.bp-outline-zoom-btn-out {
+	background-image: url(images/zoomout.png);
+}
+
+.bp-outline-zoom-btn-in {
+	background-image: url(images/zoomin.png);
+}
+
+#bp_outline_zoombar_bar {
+	width: 130px;
+	height: 5px;
+	line-height: 5px;
+	border: 1px solid #8B8A8A;
+	background-image: url(images/verticalLine.png);
+	display: inline-block;
+	cursor: pointer;
+	margin-bottom:5px;
+}
+
+#bp_outline_zoombar_block {
+	width: 8px;
+	height: 16px;
+	background-image: url(images/zoomout.png);
+	background-repeat: no-repeat;
+	background-position: 49%;
+	display: inline-block;
+	border: 1px solid #8B8A8A;
+	position: absolute;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.zoomPanel-container{
+	width: 200px;
+	height: auto;
+	border: 1px solid #ccc;
+	border-radius: 0.2em;
+}
+div.zoomPanel-container>div>span {
+margin: 10px;
+font-weight: bold;
+color: #675959;
+}

@@ -1,0 +1,71 @@
+.navbar-fixed-top{
+width:80%;
+margin:20px auto;
+position:realtive;
+border-radius:5em;
+}
+.container {
+height:60%;
+}
+.container.plugins,.container.extensions,.container.tools,
+.container.welcome,
+div.container+.container{
+margin:100px auto;
+width:80%;
+height:auto;
+margin-bottom:10px;
+}
+.container.welcome div.item img{
+width:60%;
+height:60%;
+margin: 0px auto;
+}
+footer{
+width:80%;
+margin:0px auto;
+}
+.carousel-caption {
+color:#000;
+}
+div.modal-btn {
+display:inline-block;
+width:80px;
+height:80px;
+font-size:50px;
+color:#fff;
+background-color:#428bca;
+border-radius:0.3em;
+padding:10px;
+cursor:pointer;
+margin:20px;
+border:5px solid transparent;
+text-align:center;
+}
+div.modal-btn:hover{
+border:5px solid #f0ad4e;
+}
+div.modal-btns {
+position: relative;
+width: 380px;
+margin: 0px auto;
+margin-top: -20px;
+}
+div#welecom_carousel>ol.carousel-indicators>li{
+background-color:#f0ad4e;
+}
+div.bs-example{
+width:100%;
+min-height:100px;
+padding:50px 50px;
+background-color: #fff;
+border:1px solid #ddd;
+border-radius: 4px 4px 0 0;
+box-shadow: none;
+}
+div.graph-outside {
+width: 50%;
+overflow: auto;
+max-height: 300px;
+float: right;
+margin-top: -300px;
+}
