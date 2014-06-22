@@ -10,7 +10,7 @@
  *            目标节点 graph.insertSideNode(boundaryNode,targetNode);
  */
 define(function(require, exports, module) {
-	require("./../../../private/third_parties/mxgraph/mxClient");
+	require("./../../lib/mxgraph/mxClient");
 	mxVertexHandler.prototype.mouseUp = function(sender, me) {
 		var pGeo, psLen;
 		if (!me.isConsumed() && this.index != null && this.state != null) {

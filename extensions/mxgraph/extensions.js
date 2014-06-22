@@ -2,7 +2,7 @@
  * 锚点形状注册
  */
 mxLoadResources = false;// mxClient需要引入的全局变量
-mxBasePath = "../bpm_modeler/lib/mxgraph/";
+mxBasePath = "../jquery-plugins-mxgraph-extensions/lib/mxgraph/";
 define(function(require, exports, module) {
 	require("./sideNodeExtension");
 	// Cube Shape, supports size style
